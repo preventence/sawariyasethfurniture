@@ -11,10 +11,10 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Sawariyaseth Furniture — Handcrafted Furniture, Ajmer',
+  title: 'Sawariya Seth Furniture — Handcrafted Furniture, Ajmer',
   description:
     'Premium solid wood furniture designed, manufactured and sold from our showroom in Ajmer. Teak, sheesham, oak — built to last a lifetime.',
-  ogTitle: 'Sawariyaseth Furniture',
+  ogTitle: 'Sawariya Seth Furniture',
   ogDescription: 'Handcrafted furniture from our Ajmer workshop to your home.',
 })
 
