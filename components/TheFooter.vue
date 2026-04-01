@@ -5,15 +5,15 @@
 
         <!-- Brand -->
         <div class="md:col-span-2">
-          <div class="font-serif text-3xl text-[var(--color-sand-light)] mb-1">Sawariyaseth Furniture</div>
+          <div class="font-serif text-3xl text-[var(--color-sand-light)] mb-1">Sawariya Seth Furniture</div>
           <div class="text-[9px] tracking-[0.28em] uppercase text-[var(--color-clay-light)] mb-5">
-            Est. 2004 · Handcrafted Furniture
+            Est. 2025 · Handcrafted Furniture
           </div>
           <p class="text-sm leading-relaxed text-[var(--color-sand)]/70 max-w-xs">
             Every piece we make begins as a conversation. From raw timber to finished heirloom — made by hand, made to last.
           </p>
           <div class="flex gap-4 mt-6">
-            <a href="#" class="w-9 h-9 border border-[var(--color-sand)]/20 flex items-center justify-center hover:border-[var(--color-clay)] transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/sawariyaseth_furniture_?igsh=b3d6ZmFvanA0Z3Rp" target="_blank" class="w-9 h-9 border border-[var(--color-sand)]/20 flex items-center justify-center hover:border-[var(--color-clay)] transition-colors" aria-label="Instagram">
               <InstagramIcon :size="15" />
             </a>
             <a href="#" class="w-9 h-9 border border-[var(--color-sand)]/20 flex items-center justify-center hover:border-[var(--color-clay)] transition-colors" aria-label="Pinterest">
@@ -43,13 +43,13 @@
           <address class="not-italic space-y-3 text-sm text-[var(--color-sand)]/70">
             <p>JB HOTEL, near Rajgarh road, Saradhna<br>Ajmer 305206</p>
             <p>
-              <a href="tel:+912012345678" class="hover:text-[var(--color-sand)] transition-colors">
-                +91 78528 23345
+              <a href="tel:+918000023345" class="hover:text-[var(--color-sand)] transition-colors">
+                +91 80000 23345
               </a>
             </p>
             <p>
               <a href="mailto:Shaktiking2920@gmail.com" class="hover:text-[var(--color-sand)] transition-colors">
-                hello@sawariyasethfurniture.com
+                sawariyasethfurnitures@gmail.com
               </a>
             </p>
             <p class="text-[var(--color-sand)]/50 text-xs">Mon–Sat: 10am – 7pm</p>
@@ -63,7 +63,10 @@
           © {{ year }} Sawariya Seth Furniture. All rights reserved.
         </p>
         <p class="text-xs text-[var(--color-sand)]/40">
-          Designed & built in Ajmer, India
+          Website by 
+          <a href="https://preventence.com" target="_blank" rel="noopener noreferrer" class="hover:underline">
+            Preventence Technology Pvt. Ltd.
+          </a>
         </p>
       </div>
     </div>
