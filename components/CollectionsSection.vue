@@ -78,6 +78,8 @@
 
 <script setup lang="ts">
 import { ArrowRightIcon } from 'lucide-vue-next'
+import bedImage from '@/assets/savariyasethfurniture_bed.jpeg'
+import tvSetImage from '@/assets/savariyasethfurniture_tvset.jpeg'
 
 const collections = [
   {
@@ -93,10 +95,22 @@ const collections = [
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80',
   },
   {
+    name: 'Beds',
+    category: 'Bedroom',
+    pieces: 8,
+    image: bedImage, // ✅ your local asset
+  },
+  {
     name: 'Studio Beds',
     category: 'Bedroom',
     pieces: 8,
     image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80',
+  },
+   {
+    name: 'TV Unit',
+    category: 'Living Room',
+    pieces: 8,
+    image: tvSetImage, // ✅ your local asset
   },
   {
     name: 'Sheesham Storage',
