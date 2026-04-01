@@ -84,7 +84,7 @@
 
             <div>
               <label class="form-label" for="phone">Phone</label>
-              <input id="phone" v-model="form.phone" type="tel" class="form-input" placeholder="+91 98765 43210" />
+              <input id="phone" v-model="form.phone" type="tel" class="form-input" placeholder="+91 80000 23345" />
             </div>
 
             <div>
@@ -132,15 +132,15 @@ const interestOptions = [
 ]
 
 const contactMethods = [
-  { label: 'Call Us', icon: PhoneIcon, value: '+91 78528 233458', href: 'tel:+917852823345', external: false },
-  { label: 'Email', icon: MailIcon, value: 'hello@woodcraftstudio.in', href: 'mailto:shaktiking2920@gmail.com', external: false },
-  { label: 'Showroom', icon: MapPinIcon, value: 'JB HOTEL near Rajgarh road Saradhna Ajmer 305206', href: 'https://maps.google.com/?q=Hadapsar+Pune', external: true },
+  { label: 'Call Us', icon: PhoneIcon, value: '+91 80000 23345', href: 'tel:+918000023345', external: false },
+  { label: 'Email', icon: MailIcon, value: 'sawariyasethfurnitures@gmail.com', href: 'mailto:sawariyasethfurnitures@gmail.com', external: false },
+  { label: 'Showroom', icon: MapPinIcon, value: 'JB HOTEL near Rajgarh road Saradhna Ajmer 305206', href: 'https://maps.app.goo.gl/YheTMdF7DUPNP9QA7?g_st=aw', external: true },
 ]
 
 const socialProof = [
   { value: '2,400+', label: 'Happy Homes' },
   { value: '4.9★', label: 'Google Rating' },
-  { value: '20 Yrs', label: 'Est. 2004' },
+  { value: '20 Yrs', label: 'Est. 2025' },
 ]
 </script>
 
