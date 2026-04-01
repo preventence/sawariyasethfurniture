@@ -24,7 +24,7 @@
         <div class="flex items-center gap-3 mb-6" ref="eyebrow">
           <span class="w-8 h-px bg-[var(--color-clay)]" />
           <span class="font-sans text-[10px] tracking-[0.3em] uppercase text-[var(--color-clay-light)]">
-            Handcrafted in Ajmer since 2004
+            Handcrafted in Ajmer since 2025
           </span>
         </div>
 
