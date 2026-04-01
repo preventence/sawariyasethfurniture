@@ -49,7 +49,7 @@
           </h2>
           <div class="wood-rule" />
           <p class="font-sans text-sm text-[var(--color-bark)]/65 leading-relaxed mb-8">
-            Our 15,000 sq. ft. workshop in Hadapsar houses 40 craftsmen who have spent their lives
+            Our 11,000 sq. ft. workshop in Ajmer houses 10+ craftsmen who have spent their lives
             mastering joinery, carving, and finishing. We work exclusively with responsibly sourced
             hardwoods — teak from certified plantations, reclaimed railway sleeper wood, and
             imported European oak.
@@ -126,9 +126,9 @@ const steps = [
 ]
 
 const stats = [
-  { value: '40+', label: 'Craftsmen' },
+  { value: '10+', label: 'Craftsmen' },
   { value: '2,400+', label: 'Pieces Delivered' },
-  { value: '15K sqft', label: 'Workshop Space' },
+  { value: '11K sqft', label: 'Workshop Space' },
   { value: '100%', label: 'Solid Wood' },
 ]
 </script>
