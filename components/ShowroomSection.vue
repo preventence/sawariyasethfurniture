@@ -14,7 +14,7 @@
           </h2>
           <div class="wood-rule" />
           <p class="font-sans text-sm text-[var(--color-bark)]/65 leading-relaxed mb-8">
-            Our 8,000 sq. ft. showroom on Hadapsar main road is a carefully curated space — not a warehouse floor. Each room is styled as a lived-in home so you can truly imagine a piece in your own space.
+            Our 11,000 sq. ft. showroom on Ajmer is a carefully curated space — not a warehouse floor. Each room is styled as a lived-in home so you can truly imagine a piece in your own space.
           </p>
 
           <!-- Info tiles -->
@@ -54,7 +54,7 @@
           <div class="img-hover col-span-2 aspect-[16/9]">
             <img
               src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=900&q=80"
-              alt="Sawariyaseth Furniture showroom interior"
+              alt="Sawariya Seth Furniture showroom interior"
               class="w-full h-full object-cover"
             />
           </div>
@@ -117,7 +117,7 @@ const showroomInfo = [
   {
     label: 'Phone',
     icon: PhoneIcon,
-    value: '+91 20 1234 5678<br>+91 78528 23345',
+    value: '+91 80000 23345',
   },
   {
     label: 'Appointment',
@@ -128,7 +128,7 @@ const showroomInfo = [
 
 const reviews = [
   {
-    quote: 'We furnished our entire home with Sawariya Seth Furniture. Three years in and everything looks even better than the day it arrived.',
+    quote: 'We furnished our entire home with Sawariya Seth Furniture. 1+ years in and everything looks even better than the day it arrived.',
     name: 'Priya & Rahul Joshi',
     location: 'Pushkar, Ajmer',
   },
@@ -139,7 +139,7 @@ const reviews = [
   },
   {
     quote: 'Worth every rupee. The craftsmanship is exceptional and the showroom experience made choosing so easy.',
-    name: 'Sunita Desai',
+    name: 'Sunita Khandelwal',
     location: 'Beawar, Ajmer',
   },
 ]
