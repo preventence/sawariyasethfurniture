@@ -5,7 +5,7 @@
       class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-[var(--color-bark)] flex"
     >
       <a
-        href="tel:+912012345678"
+        href="tel:+918000023345"
         class="flex-1 flex items-center justify-center gap-2 py-4 border-r border-[var(--color-sand)]/10 text-[var(--color-sand-light)]"
       >
         <PhoneIcon :size="15" />
