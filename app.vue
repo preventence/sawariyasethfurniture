@@ -1,8 +1,5 @@
 <template>
-  <div class="grain">
-    <TheNavbar />
+  <NuxtLayout>
     <NuxtPage />
-    <TheFooter />
-    <StickyEnquiryBar />
-  </div>
+  </NuxtLayout>
 </template>
