@@ -23,23 +23,30 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Sawariyaseth Furniture — Handcrafted Furniture & Showroom',
+      title: 'Sawariya Seth Furniture — Handcrafted Furniture & Showroom',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content:
-            'Premium handcrafted furniture, designed and manufactured in our workshop. Visit our showroom to experience every piece.',
+          content: 'Premium handcrafted furniture, designed and manufactured in our workshop. Visit our showroom to experience every piece.',
         },
       ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     },
   },
 
+  // Required for better-sqlite3 native binary
   nitro: {
-    prerender: {
-      routes: ['/'],
+    preset: 'node-server',
+    externals: {
+      external: ['better-sqlite3'],
     },
+  },
+
+  // Runtime config — ADMIN_PASSWORD set in .env
+  runtimeConfig: {
+    adminPassword: process.env.ADMIN_PASSWORD || 'woodcraft2024',
+    sessionSecret: process.env.SESSION_SECRET || 'change-me-in-production',
   },
 })
